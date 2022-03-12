@@ -13,25 +13,25 @@ function ShowLastBattles(array) {
         <tr>
             <td>${battle[0]}</td>
 
-            <td class="text-center">${battle[1]}</td>
+            <td>${battle[1]}</td>
 
             <td class="text-center">${battle[2]}</td>
 
-            <td>${battle[3]}</td>
+            <td class="text-center">${battle[3]}</td>
 
-            <td class="text-center">${battle[4]}</td>
+            <td>${battle[4]}</td>
 
             <td class="text-center">${battle[5]}</td>
 
-            <td>${battle[6]}</td>
+            <td class="text-center">${battle[6]}</td>
 
-            <td class="text-center">${battle[7]}</td>
+            <td>${battle[7]}</td>
 
             <td class="text-center">${battle[8]}</td>
 
-            <td>${battle[9]}</td>
+            <td class="text-center">${battle[9]}</td>
 
-            <td class="text-center">${battle[10]}</td>
+            <td>${battle[10]}</td>
 
             <td class="text-center">${battle[11]}</td>
 
