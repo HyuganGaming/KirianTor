@@ -13,29 +13,29 @@ function ShowLastBattles(array) {
         <tr>
             <td>${battle[0]}</td>
 
-            <td>${battle[1]}</td>
+            <td class="blue">${battle[1]}</td>
 
-            <td class="text-center">${battle[2]}</td>
+            <td class="blue text-center">${battle[2]}</td>
 
-            <td class="text-center">${battle[3]}</td>
+            <td class="blue text-center">${battle[3]}</td>
 
-            <td>${battle[4]}</td>
+            <td class="green">${battle[4]}</td>
 
-            <td class="text-center">${battle[5]}</td>
+            <td class="green text-center">${battle[5]}</td>
 
-            <td class="text-center">${battle[6]}</td>
+            <td class="green text-center">${battle[6]}</td>
 
-            <td>${battle[7]}</td>
+            <td class="purple">${battle[7]}</td>
 
-            <td class="text-center">${battle[8]}</td>
+            <td class="purple text-center">${battle[8]}</td>
 
-            <td class="text-center">${battle[9]}</td>
+            <td class="purple text-center">${battle[9]}</td>
 
-            <td>${battle[10]}</td>
+            <td class="red">${battle[10]}</td>
 
-            <td class="text-center">${battle[11]}</td>
+            <td class="red text-center">${battle[11]}</td>
 
-            <td class="text-center">${battle[12]}</td>
+            <td class="red text-center">${battle[12]}</td>
         </tr>
         `;
     }

@@ -381,16 +381,20 @@ table.table-dark.bold{
   font-weight: bold;
 }
 
-.xiransgreen{
-  color: #7de896;
+.green{
+  color: hsl(134, 70%, 75%);
 }
 
-.xiransorange{
-  color: #e8b67d;
+.red{
+  color: hsl(0, 71%, 75%);
 }
 
-.xiranspurple{
-  color: #b98fe9;
+.purple{
+  color: hsl(268, 67%, 75%);
+}
+
+.blue{
+  color: hsl(229, 67%, 75%);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .xiranstextshadow{
@@ -873,4 +877,12 @@ li.xiransindent {
 .logo4{
   width: 30px;
   height: 30px;
+}
+
+.nowrap{
+  white-space: nowrap;
+}
+
+.width-auto{
+  width: auto;
 }
