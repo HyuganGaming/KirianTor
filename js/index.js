@@ -1,6 +1,6 @@
 var kirian_tor_battles_array = [];
 
-function ShowLastBattles(array) {
+function ShowRankingPlayers(array) {
     let content = "";
 
     for (let i = 1; i < array.length; i++) {
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         if (resultObj.status === "ok") {
             kirian_tor_battles_array = resultObj.data.values;
 
-            ShowLastBattles(kirian_tor_battles_array);
+            ShowRankingPlayers(kirian_tor_battles_array);
         }
     });
 });
