@@ -1,4 +1,4 @@
-const KIRIAN_TOR_HOUSES_RANKING = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/Results!A1:E?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_RANKING = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/Results!A1:Z?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
 const KIRIAN_TOR_HOUSES_BATTLES = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/FormResponses!A1:M?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
 const KIRIAN_TOR_HOUSES_PLAYERS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/Players!A2:Z?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
 const KIRIAN_TOR_HOUSES_PLAYERS_RANKING = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/PlayersMath!G3:K?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";

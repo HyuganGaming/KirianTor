@@ -18,7 +18,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[4]}" class="logo1" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo1" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -40,7 +40,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[4]}" class="logo2" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo2" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -62,7 +62,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[4]}" class="logo3" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo3" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -84,7 +84,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[4]}" class="logo4" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo4" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -104,6 +104,8 @@ function ShowRankingPlayers(array) {
                 <td class="text-center">${house[2]}</td>
 
                 <td class="text-center">${house[3]}</td>
+
+                <td class="text-center">${house[4]}</td>
             </tr>
             `;
         }
