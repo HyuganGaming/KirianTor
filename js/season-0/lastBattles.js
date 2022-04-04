@@ -113,7 +113,7 @@ function AddPagination(amountOfBattles){
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-    getJSONData(KIRIAN_TOR_HOUSES_BATTLES_S1).then(function (resultObj) {
+    getJSONData(KIRIAN_TOR_HOUSES_BATTLES_TS).then(function (resultObj) {
         if (resultObj.status === "ok") {
             kirian_tor_battles_array = resultObj.data.values;
 

@@ -18,7 +18,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[6]}" class="logo1" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo1" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -40,7 +40,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[6]}" class="logo2" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo2" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -62,7 +62,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[6]}" class="logo3" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo3" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -84,7 +84,7 @@ function ShowRankingPlayers(array) {
                     `
                     <th>${i}</th>
 
-                        <td class=""><img src="${house[6]}" class="logo4" alt="${house[0]}"> ${house[0]}</td>
+                        <td class=""><img src="${house[5]}" class="logo4" alt="${house[0]}"> ${house[0]}</td>
                     `;
                 }
                 else{
@@ -106,8 +106,6 @@ function ShowRankingPlayers(array) {
                 <td class="text-center">${house[3]}</td>
 
                 <td class="text-center">${house[4]}</td>
-
-                <td class="text-center">${house[5]}</td>
             </tr>
             `;
         }
@@ -117,7 +115,7 @@ function ShowRankingPlayers(array) {
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-    getJSONData(KIRIAN_TOR_HOUSES_RANKING_S1).then(function (resultObj) {
+    getJSONData(KIRIAN_TOR_HOUSES_RANKING_TS).then(function (resultObj) {
         if (resultObj.status === "ok") {
             kirian_tor_battles_array = resultObj.data.values;
 

@@ -1,7 +1,25 @@
-const KIRIAN_TOR_HOUSES_RANKING = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/Results!A1:Z?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
-const KIRIAN_TOR_HOUSES_BATTLES = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/FormResponses!A1:M?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
-const KIRIAN_TOR_HOUSES_PLAYERS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/Players!A2:Z?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
-const KIRIAN_TOR_HOUSES_PLAYERS_RANKING = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/PlayersMath!G3:K?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+
+// Test Season
+var houses_ranking_sheet = "Results!A1:Z";
+var houses_battles_sheet = "FormResponses!A1:M";
+var houses_players_sheet = "Players!A2:Z";
+var houses_players_ranking_sheet = "PlayersMath!G3:K";
+
+const KIRIAN_TOR_HOUSES_RANKING_TS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_ranking_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_BATTLES_TS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_battles_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_PLAYERS_TS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_players_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_PLAYERS_RANKING_TS = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_players_ranking_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+
+// Season 1
+var houses_ranking_sheet = "ResultsS1!A1:Z";
+var houses_battles_sheet = "FormResponsesS1!A1:M";
+var houses_players_sheet = "PlayersS1!A2:Z";
+var houses_players_ranking_sheet = "PlayersMathS1!H3:M";
+
+const KIRIAN_TOR_HOUSES_RANKING_S1 = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_ranking_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_BATTLES_S1 = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_battles_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_PLAYERS_S1 = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_players_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
+const KIRIAN_TOR_HOUSES_PLAYERS_RANKING_S1 = "https://sheets.googleapis.com/v4/spreadsheets/1yOcV5amwb0y8UmV0R3nAU_WlrAIHe-jomnIzssH-eBM/values/" + houses_players_ranking_sheet + "?key=AIzaSyDEl89HU6IEVqW9Nk6OuxbEWNq7csd1TXE";
 
 
 const POST_NEW_COMMENT = "/new-comment";

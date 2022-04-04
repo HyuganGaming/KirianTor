@@ -53,8 +53,6 @@ function ShowRankingPlayers(array) {
                 <td class="text-center">${player[3]}</td>
 
                 <td class="text-center">${player[4]}</td>
-
-                <td class="text-center">${player[5]}</td>
             </tr>
             `;
         }
@@ -64,7 +62,7 @@ function ShowRankingPlayers(array) {
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-    getJSONData(KIRIAN_TOR_HOUSES_PLAYERS_RANKING_S1).then(function (resultObj) {
+    getJSONData(KIRIAN_TOR_HOUSES_PLAYERS_RANKING_TS).then(function (resultObj) {
         if (resultObj.status === "ok") {
             kirian_tor_players_ranking_array = resultObj.data.values;
 

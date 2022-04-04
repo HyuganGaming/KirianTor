@@ -1,3 +1,5 @@
+arraySending = [];
+
 (function() {
     // get all data in form and return object
     function getFormData(form) {
@@ -43,10 +45,12 @@
   
       // add form-specific values into the data
       formData.formDataNameOrder = JSON.stringify(fields);
-      formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      formData.formGoogleSheetName = form.dataset.sheet || "FormResponsesS1"; // default sheet name
       formData.formGoogleSendEmail
         = form.dataset.email || ""; // no email by default
-  
+
+        arraySending = formData;
+
       return {data: formData, honeypot: honeypot};
     }
   

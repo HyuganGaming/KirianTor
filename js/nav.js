@@ -11,9 +11,21 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
             <div class="collapse navbar-collapse row" id="navbarNavAltMarkup">
                 <div class="navbar-nav col">
-                    <a class="nav-link col text-center" aria-current="page" href="rankingPlayers.html">Players Ranking </a>
-                    <a class="nav-link col text-center" href="lastBattles.html">Last Battles</a>
-                    <a class="nav-link col text-center" href="result.html">Upload result</a>
+                    <a class="nav-link col text-center" aria-current="page" href="rankingPlayers.html">Players Ranking</a>
+                    <a class="nav-link col text-center" aria-current="page" href="lastBattles.html">Last Battles</a>
+                    <a class="nav-link col text-center" aria-current="page" href="result.html">Upload result</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test Season
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/season-0/rankingHouses.html">Houses Ranking</a></li>
+                            <li><a class="dropdown-item" href="/season-0/rankingPlayers.html">Players Ranking</a></li>
+                            <li><a class="dropdown-item" href="/season-0/lastBattles.html">Last Battles</a></li>
+                            <li><a class="dropdown-item" href="/season-0/result.html">Upload result</a></li>
+                        </ul>
+                    </li>
                 </div>
             </div>
         </div>
